@@ -44,4 +44,5 @@ public class UserInnerController implements UserFeignClient {
         return userService.listByIds(idList);
     }
 
+
 }
